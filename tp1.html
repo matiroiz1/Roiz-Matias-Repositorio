@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP1</title>
+    <style>
+        td,th{
+            border: 1px solid black;
+        }
+        span{
+            color: forestgreen;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Encabezado Principal</h1>
+        <nav>
+            <ul>
+                <li><a href="#estructura">Estructura</a></li>
+                <li><a href="#multimedia">Multimedia</a></li>
+                <li><a href="#formulario">Formulario</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="estructura">
+            <h2>1. Estructura Básica del Documento HTML</h2>
+            <div>
+                <p>
+                    Este documento HTML tiene una estructura básica que incluye la declaración de DOCTYPE, etiquetas de metadatos y un título.
+                </p>
+                <p>Lorem ipsum dolor sit amet <span>consectetur adipisicing elit</span> consectetur adipisicing elit. Alias dolorem consequatur architecto quae non est adipisci impedit odio corrupti, soluta perferendis, <span>repudiandae voluptatem</span> repudiandae voluptatem, nobis aliquam temporibus atque mollitia deleniti molestiae.</p>
+            </div> 
+        </section>
+        
+        <section>
+            <h2>2. Encabezado y Propiedades del Texto</h2>
+            <h2>Tipo de Encabezado h2</h2>
+            <h3>Tipo de Encabezado h3</h3>
+            <h4>Tipo de Encabezado h4</h4>
+            <h5>Tipo de Encabezado h5</h5>
+            <h6>Tipo de Encabezado h6</h6>
+            <div>
+                <p style="font-weight: bold">
+                    Esto es un texto en negrita
+                </p>
+                <p style="font-style: italic ">
+                    <i>Este es un texto en cursiva</i>
+                </p>
+                <p style="text-decoration: underline">
+                    <u>Este es un texto subrayado</u>
+                </p>
+            </div>
+        </section>
+        
+        <section>
+            <h4>3. Divisiones y Agrupación de Contenido</h4>
+            <div>
+                <b>Sección 1</b>
+                <p>Contenido de la primera sección agrupada en un div</p>
+            </div>
+            <div>
+                <b>Sección 2</b>
+                <p>Contenido de la segunda sección agrupada en un div</p>
+            </div>
+        </section>
+        
+        <section>
+            <h5>4. Enlaces y Listas</h5>
+            <p>Visita nuestro <a target="_blank" href="https://www.google.com/">sitio web</a> para más información</p>
+            <p>
+                Enlaces internos:
+                <ul>
+                    <li><a href="#estructura">Ir a Estructura</a></li>
+                    <li><a href="#multimedia">Ir a Multimedia</a></li>
+                    <li><a href="#formulario">Ir a Formulario</a>
+                    </li>
+                </ul>
+            </p>
+            <p>
+                Lista Desordenada:
+                <ul>
+                    <li>Primer ítem de una lista desordenada</li>
+                    <li>Segundo ítem de una lista desordenada</li>
+                </ul>
+                
+                Lista Ordenada:
+                <ol>
+                    <li>Primer ítem de una lista ordenada</li>
+                    <li>Segundo ítem de una lista ordenada</li>
+                </ol>
+            </p>
+        </section>
+    
+        <section id="multimedia">
+            <h2>5. Elementos Multimedia</h2>
+            <img src="https://media.ambito.com/p/9eeb5e08a37c07b88aa4107aee3420df/adjuntos/239/imagenes/040/753/0040753764/lionel-messijpg.jpg" alt="Foto de Messi tocando la copa del mundo">
+    
+            <video
+                src="https://video-previews.elements.envatousercontent.com/5b3b6876-9689-4cfe-9692-1cf061a156f6/watermarked_preview/watermarked_preview.mp4"
+                width="300px"
+                controls
+            ></video>
+            <audio src="https://download.blender.org/peach/trailer/trailer_1080p.ogg" controls></audio>
+        </section>
+        
+        <section>
+            <h2>6. Tablas</h2>
+            <table style="border: 1px solid black;">
+                <thead>
+                    <tr>
+                        <th>Columna 1</th>
+                        <th>Columna 2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Dato 1</td>
+                        <td>Dato 2</td>
+                    </tr>
+                    <tr>
+                        <td>Dato 3</td>
+                        <td>Dato 4</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    
+        <section id="formulario">
+            <h2>7. Formularios</h2>
+            <form>
+                <label for="">Nombre:</label>
+                <input type="text">
+                <label for="">Email:</label>
+                <input type="email">
+                <label for="">Mensaje:</label>
+                <textarea name="" id=""></textarea>
+                <button>Enviar</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>2024 Trabajo Práctico de HTML</footer>
+</html>
